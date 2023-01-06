@@ -1,0 +1,87 @@
+.left {
+  font-size: 20px;
+  width: 500px;
+  height: 350px;
+  text-align: center;
+}
+
+.right {
+  font-size: 20px;
+  width: 500px;
+  height: 350px;
+  text-align: center;
+}
+
+.buttons {
+  width: 350px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reg {
+  width: 258px;
+  height: 23px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: -30px;
+}
+
+.input {
+  width: 350px;
+  height: 300px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-left: 32px;
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 6px;
+  padding-left: 50px;
+}
+
+.submit {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex: 1;
+  align-self: auto;
+  padding: 0;
+  /* border: none; */
+  background: none;
+  cursor: pointer;
+  background-color: rgb(239, 239, 239);
+  border-radius: 4px;
+  border-color: black;
+  width: 100px;
+  height: 50px;
+  /* font-weight: bold; */
+  font-size: medium;
+  margin-left: 400px;
+}
+
+.lower-left {
+  width: 500px;
+  height: 300px;
+  float: left;
+}
+
+.lower-right {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  font-size: 17px;
+  width: 345px;
+  height: 300px;
+  margin: 31px 50px;
+  cursor: default;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.input_label {
+  font-size: 20px;
+  margin-left: 40px;
+}

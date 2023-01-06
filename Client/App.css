@@ -1,0 +1,113 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.App {
+  display: flex;
+  height: 400px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 350px;
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
+.characters {
+  list-style: none;
+  float: left;
+  width: 300px;
+  height: 350px;
+  align-content: center;
+  margin-left: 30px;
+  border: 3px solid #ccc;
+  border-radius: 6px;
+}
+
+.chars {
+  list-style: none;
+  float: left;
+  width: 300px;
+  height: 350px;
+  align-content: center;
+  margin-left: 30px;
+  border: 3px solid #ccc;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.characters li {
+  border: solid 2px #d0d0d0;
+  border-radius: 0.2em;
+  margin-right: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: grab;
+}
+
+.chars li {
+  border: solid 2px #d0d0d0;
+  border-radius: 0.2em;
+  margin-right: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: grab;
+}
+
+.reg_input {
+  width: 500px;
+  height: 350px;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.lab {
+  align-content: center;
+}
+
+.label {
+  margin-left: -40px;
+}
+
+.box {
+  height: 20px;
+}
+
+.division {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 2px;
+  border-style: solid;
+  text-align: center;
+}
+
+.division input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.log {
+  margin-top: 25px;
+  font-size: large;
+}
+
+.my_class {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.dates {
+  margin-left: 10px;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
